@@ -1,0 +1,5157 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AvatyeADSInit",
+        "printedName": "AvatyeADSInit",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AvatyeADSInit",
+                "printedName": "AvatyeADS.AvatyeADSInit",
+                "usr": "s:9AvatyeADS0A7ADSInitC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AvatyeADS0A7ADSInitCACycfc",
+            "mangledName": "$s9AvatyeADS0A7ADSInitCACycfc",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setting",
+            "printedName": "setting(appId:appSecretKey:appVersion:logLevel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "AvatyeADS.LogLevel",
+                "hasDefaultArg": true,
+                "usr": "s:9AvatyeADS8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS0A7ADSInitC7setting5appId0E9SecretKey0E7Version8logLevelySS_S2SAA03LogK0OtF",
+            "mangledName": "$s9AvatyeADS0A7ADSInitC7setting5appId0E9SecretKey0E7Version8logLevelySS_S2SAA03LogK0OtF",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9AvatyeADS0A7ADSInitC",
+        "mangledName": "$s9AvatyeADS0A7ADSInitC",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.LogLevel.Type) -> AvatyeADS.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "AvatyeADS.LogLevel",
+                    "usr": "s:9AvatyeADS8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "AvatyeADS.LogLevel",
+                        "usr": "s:9AvatyeADS8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS8LogLevelO5debugyA2CmF",
+            "mangledName": "$s9AvatyeADS8LogLevelO5debugyA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.LogLevel.Type) -> AvatyeADS.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "AvatyeADS.LogLevel",
+                    "usr": "s:9AvatyeADS8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "AvatyeADS.LogLevel",
+                        "usr": "s:9AvatyeADS8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS8LogLevelO4infoyA2CmF",
+            "mangledName": "$s9AvatyeADS8LogLevelO4infoyA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.LogLevel.Type) -> AvatyeADS.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "AvatyeADS.LogLevel",
+                    "usr": "s:9AvatyeADS8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "AvatyeADS.LogLevel",
+                        "usr": "s:9AvatyeADS8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS8LogLevelO5erroryA2CmF",
+            "mangledName": "$s9AvatyeADS8LogLevelO5erroryA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS8LogLevelO11descriptionSSvp",
+            "mangledName": "$s9AvatyeADS8LogLevelO11descriptionSSvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS8LogLevelO11descriptionSSvg",
+                "mangledName": "$s9AvatyeADS8LogLevelO11descriptionSSvg",
+                "moduleName": "AvatyeADS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AvatyeADS.LogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "AvatyeADS.LogLevel",
+                    "usr": "s:9AvatyeADS8LogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AvatyeADS8LogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9AvatyeADS8LogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS8LogLevelO8rawValueSivp",
+            "mangledName": "$s9AvatyeADS8LogLevelO8rawValueSivp",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS8LogLevelO8rawValueSivg",
+                "mangledName": "$s9AvatyeADS8LogLevelO8rawValueSivg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AvatyeADS8LogLevelO",
+        "mangledName": "$s9AvatyeADS8LogLevelO",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AvatyeADSLogger",
+        "printedName": "AvatyeADSLogger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:file:line:function:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS0A9ADSLoggerC5debug_4file4line8functionySS_SSSiSStFZ",
+            "mangledName": "$s9AvatyeADS0A9ADSLoggerC5debug_4file4line8functionySS_SSSiSStFZ",
+            "moduleName": "AvatyeADS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:file:line:function:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS0A9ADSLoggerC4info_4file4line8functionySS_SSSiSStFZ",
+            "mangledName": "$s9AvatyeADS0A9ADSLoggerC4info_4file4line8functionySS_SSSiSStFZ",
+            "moduleName": "AvatyeADS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:file:line:function:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS0A9ADSLoggerC5error_4file4line8functionySS_SSSiSStFZ",
+            "mangledName": "$s9AvatyeADS0A9ADSLoggerC5error_4file4line8functionySS_SSSiSStFZ",
+            "moduleName": "AvatyeADS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9AvatyeADS0A9ADSLoggerC",
+        "mangledName": "$s9AvatyeADS0A9ADSLoggerC",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "userSummaryResponse",
+        "printedName": "userSummaryResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userID",
+            "printedName": "userID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19userSummaryResponseV0C2IDSSSgvp",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV0C2IDSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19userSummaryResponseV0C2IDSSSgvg",
+                "mangledName": "$s9AvatyeADS19userSummaryResponseV0C2IDSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appID",
+            "printedName": "appID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19userSummaryResponseV5appIDSSSgvp",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV5appIDSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19userSummaryResponseV5appIDSSSgvg",
+                "mangledName": "$s9AvatyeADS19userSummaryResponseV5appIDSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phoneVerified",
+            "printedName": "phoneVerified",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19userSummaryResponseV13phoneVerifiedSbSgvp",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV13phoneVerifiedSbSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19userSummaryResponseV13phoneVerifiedSbSgvg",
+                "mangledName": "$s9AvatyeADS19userSummaryResponseV13phoneVerifiedSbSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "emailVerified",
+            "printedName": "emailVerified",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19userSummaryResponseV13emailVerifiedSbSgvp",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV13emailVerifiedSbSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19userSummaryResponseV13emailVerifiedSbSgvg",
+                "mangledName": "$s9AvatyeADS19userSummaryResponseV13emailVerifiedSbSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "provider",
+            "printedName": "provider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19userSummaryResponseV8providerSSSgvp",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV8providerSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19userSummaryResponseV8providerSSSgvg",
+                "mangledName": "$s9AvatyeADS19userSummaryResponseV8providerSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "providerUserID",
+            "printedName": "providerUserID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19userSummaryResponseV14providerUserIDSSSgvp",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV14providerUserIDSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19userSummaryResponseV14providerUserIDSSSgvg",
+                "mangledName": "$s9AvatyeADS19userSummaryResponseV14providerUserIDSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19userSummaryResponseV5stateSiSgvp",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV5stateSiSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19userSummaryResponseV5stateSiSgvg",
+                "mangledName": "$s9AvatyeADS19userSummaryResponseV5stateSiSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appUser",
+            "printedName": "appUser",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AvatyeADS.appUserModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "appUserModel",
+                    "printedName": "AvatyeADS.appUserModel",
+                    "usr": "s:9AvatyeADS12appUserModelV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19userSummaryResponseV7appUserAA0fG5ModelVSgvp",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV7appUserAA0fG5ModelVSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AvatyeADS.appUserModel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "appUserModel",
+                        "printedName": "AvatyeADS.appUserModel",
+                        "usr": "s:9AvatyeADS12appUserModelV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19userSummaryResponseV7appUserAA0fG5ModelVSgvg",
+                "mangledName": "$s9AvatyeADS19userSummaryResponseV7appUserAA0fG5ModelVSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ageVerified",
+            "printedName": "ageVerified",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19userSummaryResponseV11ageVerifiedSbSgvp",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV11ageVerifiedSbSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19userSummaryResponseV11ageVerifiedSbSgvg",
+                "mangledName": "$s9AvatyeADS19userSummaryResponseV11ageVerifiedSbSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "terms",
+            "printedName": "terms",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AvatyeADS.terms?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "terms",
+                    "printedName": "AvatyeADS.terms",
+                    "usr": "s:9AvatyeADS5termsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19userSummaryResponseV5termsAaDVSgvp",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV5termsAaDVSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AvatyeADS.terms?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "terms",
+                        "printedName": "AvatyeADS.terms",
+                        "usr": "s:9AvatyeADS5termsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19userSummaryResponseV5termsAaDVSgvg",
+                "mangledName": "$s9AvatyeADS19userSummaryResponseV5termsAaDVSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userGroupName",
+            "printedName": "userGroupName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19userSummaryResponseV0C9GroupNameSSSgvp",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV0C9GroupNameSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19userSummaryResponseV0C9GroupNameSSSgvg",
+                "mangledName": "$s9AvatyeADS19userSummaryResponseV0C9GroupNameSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "userSummaryResponse",
+                "printedName": "AvatyeADS.userSummaryResponse",
+                "usr": "s:9AvatyeADS19userSummaryResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AvatyeADS19userSummaryResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS19userSummaryResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9AvatyeADS19userSummaryResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AvatyeADS19userSummaryResponseV",
+        "mangledName": "$s9AvatyeADS19userSummaryResponseV",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "appUserModel",
+        "printedName": "appUserModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userID",
+            "printedName": "userID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS12appUserModelV6userIDSSSgvp",
+            "mangledName": "$s9AvatyeADS12appUserModelV6userIDSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS12appUserModelV6userIDSSSgvg",
+                "mangledName": "$s9AvatyeADS12appUserModelV6userIDSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appID",
+            "printedName": "appID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS12appUserModelV0C2IDSSSgvp",
+            "mangledName": "$s9AvatyeADS12appUserModelV0C2IDSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS12appUserModelV0C2IDSSSgvg",
+                "mangledName": "$s9AvatyeADS12appUserModelV0C2IDSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nickname",
+            "printedName": "nickname",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS12appUserModelV8nicknameSSSgvp",
+            "mangledName": "$s9AvatyeADS12appUserModelV8nicknameSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS12appUserModelV8nicknameSSSgvg",
+                "mangledName": "$s9AvatyeADS12appUserModelV8nicknameSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gender",
+            "printedName": "gender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS12appUserModelV6genderSSSgvp",
+            "mangledName": "$s9AvatyeADS12appUserModelV6genderSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS12appUserModelV6genderSSSgvg",
+                "mangledName": "$s9AvatyeADS12appUserModelV6genderSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthDate",
+            "printedName": "birthDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS12appUserModelV9birthDateSSSgvp",
+            "mangledName": "$s9AvatyeADS12appUserModelV9birthDateSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS12appUserModelV9birthDateSSSgvg",
+                "mangledName": "$s9AvatyeADS12appUserModelV9birthDateSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inviteCode",
+            "printedName": "inviteCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS12appUserModelV10inviteCodeSSSgvp",
+            "mangledName": "$s9AvatyeADS12appUserModelV10inviteCodeSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS12appUserModelV10inviteCodeSSSgvg",
+                "mangledName": "$s9AvatyeADS12appUserModelV10inviteCodeSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "appUserModel",
+                "printedName": "AvatyeADS.appUserModel",
+                "usr": "s:9AvatyeADS12appUserModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AvatyeADS12appUserModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9AvatyeADS12appUserModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS12appUserModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9AvatyeADS12appUserModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AvatyeADS12appUserModelV",
+        "mangledName": "$s9AvatyeADS12appUserModelV",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "terms",
+        "printedName": "terms",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "collectPersonalData",
+            "printedName": "collectPersonalData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AvatyeADS.collectPersonalData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "collectPersonalData",
+                    "printedName": "AvatyeADS.collectPersonalData",
+                    "usr": "s:9AvatyeADS19collectPersonalDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS5termsV19collectPersonalDataAaDVSgvp",
+            "mangledName": "$s9AvatyeADS5termsV19collectPersonalDataAaDVSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AvatyeADS.collectPersonalData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "collectPersonalData",
+                        "printedName": "AvatyeADS.collectPersonalData",
+                        "usr": "s:9AvatyeADS19collectPersonalDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS5termsV19collectPersonalDataAaDVSgvg",
+                "mangledName": "$s9AvatyeADS5termsV19collectPersonalDataAaDVSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "terms",
+                "printedName": "AvatyeADS.terms",
+                "usr": "s:9AvatyeADS5termsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AvatyeADS5termsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9AvatyeADS5termsV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS5termsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9AvatyeADS5termsV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AvatyeADS5termsV",
+        "mangledName": "$s9AvatyeADS5termsV",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "collectPersonalData",
+        "printedName": "collectPersonalData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tye",
+            "printedName": "tye",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19collectPersonalDataV3tyeSiSgvp",
+            "mangledName": "$s9AvatyeADS19collectPersonalDataV3tyeSiSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19collectPersonalDataV3tyeSiSgvg",
+                "mangledName": "$s9AvatyeADS19collectPersonalDataV3tyeSiSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "agree",
+            "printedName": "agree",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS19collectPersonalDataV5agreeSbSgvp",
+            "mangledName": "$s9AvatyeADS19collectPersonalDataV5agreeSbSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS19collectPersonalDataV5agreeSbSgvg",
+                "mangledName": "$s9AvatyeADS19collectPersonalDataV5agreeSbSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "collectPersonalData",
+                "printedName": "AvatyeADS.collectPersonalData",
+                "usr": "s:9AvatyeADS19collectPersonalDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AvatyeADS19collectPersonalDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9AvatyeADS19collectPersonalDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS19collectPersonalDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9AvatyeADS19collectPersonalDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AvatyeADS19collectPersonalDataV",
+        "mangledName": "$s9AvatyeADS19collectPersonalDataV",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AvatyeUtilManager",
+        "printedName": "AvatyeUtilManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AvatyeUtilManager",
+                "printedName": "AvatyeADS.AvatyeUtilManager",
+                "usr": "s:9AvatyeADS0A11UtilManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AvatyeADS0A11UtilManagerCACycfc",
+            "mangledName": "$s9AvatyeADS0A11UtilManagerCACycfc",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserProfile",
+            "printedName": "getUserProfile(userKey:resource:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.PointHomeResultType<AvatyeADS.userSummaryResponse>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeResultType",
+                    "printedName": "AvatyeADS.PointHomeResultType<AvatyeADS.userSummaryResponse>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "userSummaryResponse",
+                        "printedName": "AvatyeADS.userSummaryResponse",
+                        "usr": "s:9AvatyeADS19userSummaryResponseV"
+                      }
+                    ],
+                    "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS0A11UtilManagerC14getUserProfile7userKey8resource10completionySS_SSSgyAA19PointHomeResultTypeOyAA0H15SummaryResponseVGctF",
+            "mangledName": "$s9AvatyeADS0A11UtilManagerC14getUserProfile7userKey8resource10completionySS_SSSgyAA19PointHomeResultTypeOyAA0H15SummaryResponseVGctF",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9AvatyeADS0A11UtilManagerC",
+        "mangledName": "$s9AvatyeADS0A11UtilManagerC",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AvatyeResultType",
+        "printedName": "AvatyeResultType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.AvatyeResultType.Type) -> AvatyeADS.AvatyeResultType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AvatyeResultType",
+                    "printedName": "AvatyeADS.AvatyeResultType",
+                    "usr": "s:9AvatyeADS0A10ResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.AvatyeResultType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AvatyeResultType",
+                        "printedName": "AvatyeADS.AvatyeResultType",
+                        "usr": "s:9AvatyeADS0A10ResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS0A10ResultTypeO7successyA2CmF",
+            "mangledName": "$s9AvatyeADS0A10ResultTypeO7successyA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "pathErr",
+            "printedName": "pathErr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.AvatyeResultType.Type) -> AvatyeADS.AvatyeResultType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AvatyeResultType",
+                    "printedName": "AvatyeADS.AvatyeResultType",
+                    "usr": "s:9AvatyeADS0A10ResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.AvatyeResultType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AvatyeResultType",
+                        "printedName": "AvatyeADS.AvatyeResultType",
+                        "usr": "s:9AvatyeADS0A10ResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS0A10ResultTypeO7pathErryA2CmF",
+            "mangledName": "$s9AvatyeADS0A10ResultTypeO7pathErryA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "serverErr",
+            "printedName": "serverErr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.AvatyeResultType.Type) -> AvatyeADS.AvatyeResultType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AvatyeResultType",
+                    "printedName": "AvatyeADS.AvatyeResultType",
+                    "usr": "s:9AvatyeADS0A10ResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.AvatyeResultType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AvatyeResultType",
+                        "printedName": "AvatyeADS.AvatyeResultType",
+                        "usr": "s:9AvatyeADS0A10ResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS0A10ResultTypeO9serverErryA2CmF",
+            "mangledName": "$s9AvatyeADS0A10ResultTypeO9serverErryA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "inMaintenance",
+            "printedName": "inMaintenance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.AvatyeResultType.Type) -> AvatyeADS.AvatyeResultType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AvatyeResultType",
+                    "printedName": "AvatyeADS.AvatyeResultType",
+                    "usr": "s:9AvatyeADS0A10ResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.AvatyeResultType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AvatyeResultType",
+                        "printedName": "AvatyeADS.AvatyeResultType",
+                        "usr": "s:9AvatyeADS0A10ResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS0A10ResultTypeO13inMaintenanceyA2CmF",
+            "mangledName": "$s9AvatyeADS0A10ResultTypeO13inMaintenanceyA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "networkFail",
+            "printedName": "networkFail",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.AvatyeResultType.Type) -> AvatyeADS.AvatyeResultType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AvatyeResultType",
+                    "printedName": "AvatyeADS.AvatyeResultType",
+                    "usr": "s:9AvatyeADS0A10ResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.AvatyeResultType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AvatyeResultType",
+                        "printedName": "AvatyeADS.AvatyeResultType",
+                        "usr": "s:9AvatyeADS0A10ResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS0A10ResultTypeO11networkFailyA2CmF",
+            "mangledName": "$s9AvatyeADS0A10ResultTypeO11networkFailyA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "unRecognizedError",
+            "printedName": "unRecognizedError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.AvatyeResultType.Type) -> AvatyeADS.AvatyeResultType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AvatyeResultType",
+                    "printedName": "AvatyeADS.AvatyeResultType",
+                    "usr": "s:9AvatyeADS0A10ResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.AvatyeResultType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AvatyeResultType",
+                        "printedName": "AvatyeADS.AvatyeResultType",
+                        "usr": "s:9AvatyeADS0A10ResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS0A10ResultTypeO17unRecognizedErroryA2CmF",
+            "mangledName": "$s9AvatyeADS0A10ResultTypeO17unRecognizedErroryA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AvatyeResultType",
+                "printedName": "AvatyeADS.AvatyeResultType",
+                "usr": "s:9AvatyeADS0A10ResultTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AvatyeResultType",
+                "printedName": "AvatyeADS.AvatyeResultType",
+                "usr": "s:9AvatyeADS0A10ResultTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS0A10ResultTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9AvatyeADS0A10ResultTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AvatyeADS",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS0A10ResultTypeO9hashValueSivp",
+            "mangledName": "$s9AvatyeADS0A10ResultTypeO9hashValueSivp",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS0A10ResultTypeO9hashValueSivg",
+                "mangledName": "$s9AvatyeADS0A10ResultTypeO9hashValueSivg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS0A10ResultTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9AvatyeADS0A10ResultTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AvatyeADS0A10ResultTypeO",
+        "mangledName": "$s9AvatyeADS0A10ResultTypeO",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenError",
+        "printedName": "TokenError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pathErr",
+            "printedName": "pathErr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.TokenError.Type) -> AvatyeADS.TokenError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenError",
+                    "printedName": "AvatyeADS.TokenError",
+                    "usr": "s:9AvatyeADS10TokenErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.TokenError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenError",
+                        "printedName": "AvatyeADS.TokenError",
+                        "usr": "s:9AvatyeADS10TokenErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS10TokenErrorO7pathErryA2CmF",
+            "mangledName": "$s9AvatyeADS10TokenErrorO7pathErryA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "serverErr",
+            "printedName": "serverErr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.TokenError.Type) -> AvatyeADS.TokenError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenError",
+                    "printedName": "AvatyeADS.TokenError",
+                    "usr": "s:9AvatyeADS10TokenErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.TokenError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenError",
+                        "printedName": "AvatyeADS.TokenError",
+                        "usr": "s:9AvatyeADS10TokenErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS10TokenErrorO9serverErryA2CmF",
+            "mangledName": "$s9AvatyeADS10TokenErrorO9serverErryA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "inMaintenance",
+            "printedName": "inMaintenance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.TokenError.Type) -> AvatyeADS.TokenError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenError",
+                    "printedName": "AvatyeADS.TokenError",
+                    "usr": "s:9AvatyeADS10TokenErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.TokenError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenError",
+                        "printedName": "AvatyeADS.TokenError",
+                        "usr": "s:9AvatyeADS10TokenErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS10TokenErrorO13inMaintenanceyA2CmF",
+            "mangledName": "$s9AvatyeADS10TokenErrorO13inMaintenanceyA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "networkFail",
+            "printedName": "networkFail",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.TokenError.Type) -> AvatyeADS.TokenError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenError",
+                    "printedName": "AvatyeADS.TokenError",
+                    "usr": "s:9AvatyeADS10TokenErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.TokenError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenError",
+                        "printedName": "AvatyeADS.TokenError",
+                        "usr": "s:9AvatyeADS10TokenErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS10TokenErrorO11networkFailyA2CmF",
+            "mangledName": "$s9AvatyeADS10TokenErrorO11networkFailyA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "unRecognizedError",
+            "printedName": "unRecognizedError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.TokenError.Type) -> AvatyeADS.TokenError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenError",
+                    "printedName": "AvatyeADS.TokenError",
+                    "usr": "s:9AvatyeADS10TokenErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.TokenError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenError",
+                        "printedName": "AvatyeADS.TokenError",
+                        "usr": "s:9AvatyeADS10TokenErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS10TokenErrorO012unRecognizedD0yA2CmF",
+            "mangledName": "$s9AvatyeADS10TokenErrorO012unRecognizedD0yA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TokenError",
+                "printedName": "AvatyeADS.TokenError",
+                "usr": "s:9AvatyeADS10TokenErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TokenError",
+                "printedName": "AvatyeADS.TokenError",
+                "usr": "s:9AvatyeADS10TokenErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS10TokenErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9AvatyeADS10TokenErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "AvatyeADS",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS10TokenErrorO9hashValueSivp",
+            "mangledName": "$s9AvatyeADS10TokenErrorO9hashValueSivp",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS10TokenErrorO9hashValueSivg",
+                "mangledName": "$s9AvatyeADS10TokenErrorO9hashValueSivg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS10TokenErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9AvatyeADS10TokenErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AvatyeADS10TokenErrorO",
+        "mangledName": "$s9AvatyeADS10TokenErrorO",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PointHomeResultType",
+        "printedName": "PointHomeResultType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (AvatyeADS.PointHomeResultType<τ_0_0>.Type) -> (τ_0_0) -> AvatyeADS.PointHomeResultType<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> AvatyeADS.PointHomeResultType<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeResultType",
+                        "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeResultType",
+                        "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS19PointHomeResultTypeO7successyACyxGxcAEmlF",
+            "mangledName": "$s9AvatyeADS19PointHomeResultTypeO7successyACyxGxcAEmlF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "pathErr",
+            "printedName": "pathErr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (AvatyeADS.PointHomeResultType<τ_0_0>.Type) -> AvatyeADS.PointHomeResultType<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeResultType",
+                    "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeResultType",
+                        "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS19PointHomeResultTypeO7pathErryACyxGAEmlF",
+            "mangledName": "$s9AvatyeADS19PointHomeResultTypeO7pathErryACyxGAEmlF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "serverErr",
+            "printedName": "serverErr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (AvatyeADS.PointHomeResultType<τ_0_0>.Type) -> AvatyeADS.PointHomeResultType<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeResultType",
+                    "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeResultType",
+                        "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS19PointHomeResultTypeO9serverErryACyxGAEmlF",
+            "mangledName": "$s9AvatyeADS19PointHomeResultTypeO9serverErryACyxGAEmlF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "inMaintenance",
+            "printedName": "inMaintenance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (AvatyeADS.PointHomeResultType<τ_0_0>.Type) -> AvatyeADS.PointHomeResultType<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeResultType",
+                    "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeResultType",
+                        "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS19PointHomeResultTypeO13inMaintenanceyACyxGAEmlF",
+            "mangledName": "$s9AvatyeADS19PointHomeResultTypeO13inMaintenanceyACyxGAEmlF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "networkFail",
+            "printedName": "networkFail",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (AvatyeADS.PointHomeResultType<τ_0_0>.Type) -> AvatyeADS.PointHomeResultType<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeResultType",
+                    "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeResultType",
+                        "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS19PointHomeResultTypeO11networkFailyACyxGAEmlF",
+            "mangledName": "$s9AvatyeADS19PointHomeResultTypeO11networkFailyACyxGAEmlF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "unRecognizedError",
+            "printedName": "unRecognizedError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (AvatyeADS.PointHomeResultType<τ_0_0>.Type) -> AvatyeADS.PointHomeResultType<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeResultType",
+                    "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeResultType",
+                        "printedName": "AvatyeADS.PointHomeResultType<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:9AvatyeADS19PointHomeResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS19PointHomeResultTypeO17unRecognizedErroryACyxGAEmlF",
+            "mangledName": "$s9AvatyeADS19PointHomeResultTypeO17unRecognizedErroryACyxGAEmlF",
+            "moduleName": "AvatyeADS"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AvatyeADS19PointHomeResultTypeO",
+        "mangledName": "$s9AvatyeADS19PointHomeResultTypeO",
+        "moduleName": "AvatyeADS",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorModel",
+        "printedName": "ErrorModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS10ErrorModelV4codeSSSgvp",
+            "mangledName": "$s9AvatyeADS10ErrorModelV4codeSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS10ErrorModelV4codeSSSgvg",
+                "mangledName": "$s9AvatyeADS10ErrorModelV4codeSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS10ErrorModelV4codeSSSgvs",
+                "mangledName": "$s9AvatyeADS10ErrorModelV4codeSSSgvs",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS10ErrorModelV4codeSSSgvM",
+                "mangledName": "$s9AvatyeADS10ErrorModelV4codeSSSgvM",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS10ErrorModelV6statusSiSgvp",
+            "mangledName": "$s9AvatyeADS10ErrorModelV6statusSiSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS10ErrorModelV6statusSiSgvg",
+                "mangledName": "$s9AvatyeADS10ErrorModelV6statusSiSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS10ErrorModelV6statusSiSgvs",
+                "mangledName": "$s9AvatyeADS10ErrorModelV6statusSiSgvs",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS10ErrorModelV6statusSiSgvM",
+                "mangledName": "$s9AvatyeADS10ErrorModelV6statusSiSgvM",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS10ErrorModelV7messageSSSgvp",
+            "mangledName": "$s9AvatyeADS10ErrorModelV7messageSSSgvp",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS10ErrorModelV7messageSSSgvg",
+                "mangledName": "$s9AvatyeADS10ErrorModelV7messageSSSgvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS10ErrorModelV7messageSSSgvs",
+                "mangledName": "$s9AvatyeADS10ErrorModelV7messageSSSgvs",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS10ErrorModelV7messageSSSgvM",
+                "mangledName": "$s9AvatyeADS10ErrorModelV7messageSSSgvM",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorModel",
+                "printedName": "AvatyeADS.ErrorModel",
+                "usr": "s:9AvatyeADS10ErrorModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AvatyeADS10ErrorModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9AvatyeADS10ErrorModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS10ErrorModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9AvatyeADS10ErrorModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AvatyeADS10ErrorModelV",
+        "mangledName": "$s9AvatyeADS10ErrorModelV",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenUtil",
+        "printedName": "TokenUtil",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TokenUtil",
+                "printedName": "AvatyeADS.TokenUtil",
+                "usr": "s:9AvatyeADS9TokenUtilC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AvatyeADS9TokenUtilCACycfc",
+            "mangledName": "$s9AvatyeADS9TokenUtilCACycfc",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserKeyChain",
+            "printedName": "setUserKeyChain(userKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.AvatyeResultType) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AvatyeResultType",
+                    "printedName": "AvatyeADS.AvatyeResultType",
+                    "usr": "s:9AvatyeADS0A10ResultTypeO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS9TokenUtilC15setUserKeyChain04userG010completionySS_yAA0A10ResultTypeOctF",
+            "mangledName": "$s9AvatyeADS9TokenUtilC15setUserKeyChain04userG010completionySS_yAA0A10ResultTypeOctF",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getToken",
+            "printedName": "getToken(userKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, AvatyeADS.TokenError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, AvatyeADS.TokenError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenError",
+                        "printedName": "AvatyeADS.TokenError",
+                        "usr": "s:9AvatyeADS10TokenErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS9TokenUtilC03getC07userKey10completionySS_ys6ResultOySSAA0C5ErrorOGctF",
+            "mangledName": "$s9AvatyeADS9TokenUtilC03getC07userKey10completionySS_ys6ResultOySSAA0C5ErrorOGctF",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteToken",
+            "printedName": "deleteToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS9TokenUtilC06deleteC0yyF",
+            "mangledName": "$s9AvatyeADS9TokenUtilC06deleteC0yyF",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9AvatyeADS9TokenUtilC",
+        "mangledName": "$s9AvatyeADS9TokenUtilC",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "AvatyeADS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeyChainType",
+        "printedName": "KeyChainType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userKey",
+            "printedName": "userKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.KeyChainType.Type) -> AvatyeADS.KeyChainType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyChainType",
+                    "printedName": "AvatyeADS.KeyChainType",
+                    "usr": "s:9AvatyeADS12KeyChainTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.KeyChainType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyChainType",
+                        "printedName": "AvatyeADS.KeyChainType",
+                        "usr": "s:9AvatyeADS12KeyChainTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS12KeyChainTypeO04userC0yA2CmF",
+            "mangledName": "$s9AvatyeADS12KeyChainTypeO04userC0yA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "pointHomeTokenKey",
+            "printedName": "pointHomeTokenKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.KeyChainType.Type) -> AvatyeADS.KeyChainType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyChainType",
+                    "printedName": "AvatyeADS.KeyChainType",
+                    "usr": "s:9AvatyeADS12KeyChainTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.KeyChainType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyChainType",
+                        "printedName": "AvatyeADS.KeyChainType",
+                        "usr": "s:9AvatyeADS12KeyChainTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS12KeyChainTypeO014pointHomeTokenC0yA2CmF",
+            "mangledName": "$s9AvatyeADS12KeyChainTypeO014pointHomeTokenC0yA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Var",
+            "name": "deviceID",
+            "printedName": "deviceID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyeADS.KeyChainType.Type) -> AvatyeADS.KeyChainType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyChainType",
+                    "printedName": "AvatyeADS.KeyChainType",
+                    "usr": "s:9AvatyeADS12KeyChainTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyeADS.KeyChainType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyChainType",
+                        "printedName": "AvatyeADS.KeyChainType",
+                        "usr": "s:9AvatyeADS12KeyChainTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatyeADS12KeyChainTypeO8deviceIDyA2CmF",
+            "mangledName": "$s9AvatyeADS12KeyChainTypeO8deviceIDyA2CmF",
+            "moduleName": "AvatyeADS"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AvatyeADS.KeyChainType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyChainType",
+                    "printedName": "AvatyeADS.KeyChainType",
+                    "usr": "s:9AvatyeADS12KeyChainTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AvatyeADS12KeyChainTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s9AvatyeADS12KeyChainTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AvatyeADS12KeyChainTypeO8rawValueSSvp",
+            "mangledName": "$s9AvatyeADS12KeyChainTypeO8rawValueSSvp",
+            "moduleName": "AvatyeADS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AvatyeADS12KeyChainTypeO8rawValueSSvg",
+                "mangledName": "$s9AvatyeADS12KeyChainTypeO8rawValueSSvg",
+                "moduleName": "AvatyeADS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AvatyeADS12KeyChainTypeO",
+        "mangledName": "$s9AvatyeADS12KeyChainTypeO",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeyChainManager",
+        "printedName": "KeyChainManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyChainManager",
+                "printedName": "AvatyeADS.KeyChainManager",
+                "usr": "s:9AvatyeADS15KeyChainManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AvatyeADS15KeyChainManagerCACycfc",
+            "mangledName": "$s9AvatyeADS15KeyChainManagerCACycfc",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getStringFromKeyChain",
+            "printedName": "getStringFromKeyChain(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyChainType",
+                "printedName": "AvatyeADS.KeyChainType",
+                "usr": "s:9AvatyeADS12KeyChainTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS15KeyChainManagerC013getStringFromcD04typeSSAA0cD4TypeO_tKF",
+            "mangledName": "$s9AvatyeADS15KeyChainManagerC013getStringFromcD04typeSSAA0cD4TypeO_tKF",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteStringFromKeyChain",
+            "printedName": "deleteStringFromKeyChain(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyChainType",
+                "printedName": "AvatyeADS.KeyChainType",
+                "usr": "s:9AvatyeADS12KeyChainTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AvatyeADS15KeyChainManagerC016deleteStringFromcD04typeyAA0cD4TypeO_tKF",
+            "mangledName": "$s9AvatyeADS15KeyChainManagerC016deleteStringFromcD04typeyAA0cD4TypeO_tKF",
+            "moduleName": "AvatyeADS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9AvatyeADS15KeyChainManagerC",
+        "mangledName": "$s9AvatyeADS15KeyChainManagerC",
+        "moduleName": "AvatyeADS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSInit.swift",
+      "kind": "StringLiteral",
+      "offset": 984,
+      "length": 26,
+      "value": "\"AvatyePH \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSInit.swift",
+      "kind": "StringLiteral",
+      "offset": 1009,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSInit.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
+      "length": 23,
+      "value": "\"AvatyePH uuid \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSInit.swift",
+      "kind": "StringLiteral",
+      "offset": 1140,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 9,
+      "value": "\"- DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 332,
+      "length": 8,
+      "value": "\"- INFO\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 9,
+      "value": "\"- ERROR\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1351,
+      "length": 79,
+      "value": "\"[AvatyeADS] \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1384,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1396,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1404,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1416,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeADSLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1429,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 19,
+      "value": "\"BaseService start\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 5,
+      "value": "\"Tmp\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 5,
+      "value": "\"Tmp\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 41,
+      "value": "\"BaseService ServerAction Error \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 927,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1255,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1308,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 1816,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "Array",
+      "offset": 1923,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 2043,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 2052,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2151,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 2367,
+      "length": 16,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 2382,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 2645,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 2685,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 2974,
+      "length": 28,
+      "value": "\"time out interval 5 second\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 3240,
+      "length": 27,
+      "value": "\"Header: \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 3255,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 3266,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3507,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3694,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3714,
+      "length": 3,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 4251,
+      "length": 36,
+      "value": "\"real Test str isValidData : \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 4286,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 4338,
+      "length": 19,
+      "value": "\"isValidData false\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 4567,
+      "length": 36,
+      "value": "\"BaseService success \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 4602,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 4762,
+      "length": 26,
+      "value": "\"statuscode \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 4787,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 4948,
+      "length": 19,
+      "value": "\"unRecognizedError\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5509,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5515,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5549,
+      "length": 3,
+      "value": "401"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 5592,
+      "length": 26,
+      "value": "\"userKey \/ timeKey delete\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5705,
+      "length": 3,
+      "value": "408"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 5794,
+      "length": 24,
+      "value": "\"pathError \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 5817,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5880,
+      "length": 3,
+      "value": "503"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5944,
+      "length": 3,
+      "value": "502"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeBaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5949,
+      "length": 3,
+      "value": "504"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/NetworkUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/NetworkUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 20,
+      "value": "\"x-sdk-version-name\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/NetworkUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 801,
+      "length": 8,
+      "value": "\"Basic \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/NetworkUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 827,
+      "length": 7,
+      "value": "\"%@:%@\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 9,
+      "value": "\"DevMode\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 71,
+      "value": "\"pointHomeURL return url https:\/\/api-\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 1,
+      "value": "\".reward.avatye.com\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 637,
+      "length": 47,
+      "value": "\"https:\/\/api-\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 1,
+      "value": "\".reward.avatye.com\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
+      "length": 55,
+      "value": "\"pointHomeURL return url https:\/\/api.reward.avatye.com\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 31,
+      "value": "\"https:\/\/api.reward.avatye.com\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 933,
+      "length": 23,
+      "value": "\"\/user\/login\/cashBlock\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1035,
+      "length": 10,
+      "value": "\"\/user\/me\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 637,
+      "length": 24,
+      "value": "\"dataToken \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 660,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 912,
+      "length": 33,
+      "value": "\"cashblockLogin PathErr \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1054,
+      "length": 26,
+      "value": "\"cashblockLogin serverErr\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1190,
+      "length": 28,
+      "value": "\"cashblockLogin networkFail\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1343,
+      "length": 39,
+      "value": "\"cashblockLogin inMaintenance \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1381,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1486,
+      "length": 24,
+      "value": "\"cashblockLogin default\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2242,
+      "length": 19,
+      "value": "\"item Pasing error\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2421,
+      "length": 22,
+      "value": "\"success item \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2442,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2580,
+      "length": 11,
+      "value": "\"pathError\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2724,
+      "length": 11,
+      "value": "\"serverErr\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2874,
+      "length": 15,
+      "value": "\"inMaintenance\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3027,
+      "length": 13,
+      "value": "\"networkFail\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3182,
+      "length": 43,
+      "value": "\"getUserProfile failure unRecognizedError \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3398,
+      "length": 39,
+      "value": "\"getUserProfile failure error \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/AvatyeUtilManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3436,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 35,
+      "value": "\"setUserKeyChain setCashBlockLogin\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 581,
+      "length": 43,
+      "value": "\"setUserKeyChain PointHome keychain update\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 813,
+      "length": 32,
+      "value": "\"KeyChainutil userKey not store\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 967,
+      "length": 28,
+      "value": "\"updateUserKeyChain pathErr\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 30,
+      "value": "\"updateUserKeyChain serverErr\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1243,
+      "length": 34,
+      "value": "\"updateUserKeyChain inMaintenance\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1391,
+      "length": 32,
+      "value": "\"updateUserKeyChain networkFail\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1541,
+      "length": 38,
+      "value": "\"updateUserKeyChain unRecognizedError\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2069,
+      "length": 50,
+      "value": "\"event setUserKeyChain userKey != keyChainUserKey\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2302,
+      "length": 49,
+      "value": "\"event setUserKeyChain userKey = keyChainUserKey\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2454,
+      "length": 50,
+      "value": "\"event setUserKeyChain catch , pointHomeToken nil\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3174,
+      "length": 29,
+      "value": "\"getToken KeyChain Token nil\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3679,
+      "length": 34,
+      "value": "\"event getToken unRecognizedError\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3975,
+      "length": 17,
+      "value": "\"userKey Delete.\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/TokenUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4044,
+      "length": 19,
+      "value": "\"deleteToken Error\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/Services.swift",
+      "kind": "Dictionary",
+      "offset": 232,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/Services.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/Services.swift",
+      "kind": "Dictionary",
+      "offset": 669,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/Services.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/Services.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 17,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/Services.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 13,
+      "value": "\"PH_USER_KEY\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 11,
+      "value": "\"PH_PH_KEY\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 16,
+      "value": "\"PH_DEVICE_UUID\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 13,
+      "value": "\"PH_USER_KEY\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 11,
+      "value": "\"PH_PH_KEY\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 16,
+      "value": "\"PH_DEVICE_UUID\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1468,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1896,
+      "length": 39,
+      "value": "\"key chain stored well \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1934,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2064,
+      "length": 22,
+      "value": "\"login update \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2085,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3194,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3716,
+      "length": 40,
+      "value": "\"key chain updated well \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3755,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3870,
+      "length": 71,
+      "value": "\"key chain Error \""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3940,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4966,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5006,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5770,
+      "length": 6,
+      "value": "-25300"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5813,
+      "length": 14,
+      "value": "\"dataNotFound\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6564,
+      "length": 22,
+      "value": "\"keyChain Delete well\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeSPC\/AvatyeADSCode\/AvatyeADS\/KeyChainUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6637,
+      "length": 15,
+      "value": "\"KeychainError\""
+    }
+  ]
+}
