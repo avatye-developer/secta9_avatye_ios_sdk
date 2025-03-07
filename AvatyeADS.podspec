@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "AvatyeCore"
+  spec.name         = "AvatyeADS"
   spec.version      = "1.0.0"
   spec.summary      = "Avatye ADS SDK"
   spec.description  = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.author       = {"LimJaeHyuk" => "lim0202jh@avatye.com"}
 
   spec.ios.deployment_target = "13.0"
-  spec.source       = { :git => "https://github.com/avatye-developer/sdk_adcash_ios.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/avatye-developer/secta9_avatye_ios_sdk.git", :tag => spec.version.to_s }
 
   spec.swift_versions = ["5.0"]
 
